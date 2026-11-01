@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Task 5-7: DOM Manipulation</h1>        <p><strong>Student:</strong> Amanteva Balzhan &nbsp; | &nbsp; <strong>Group:</strong> SE 2526</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a><a href="selectors.html">Task 0-1</a>
+        <a href="effects.html">Task 2-4</a><a href="dom.html">Task 5-7</a>
+        <a href="animations.html">Task 8-10</a><a href="project.html">Task 11</a>
+    </nav>
+    <main>
+        <h2>Task 5: Add and Remove Elements</h2>
+        <ul id="myList"><li>First item</li><li>Second item</li></ul>
+        <button id="addItem">Add Item</button><button id="addFirst">Add to Start</button><button id="removeItem">Remove Item</button>
+
+        <h2>Task 6: Modifying Attributes</h2>
+        <img id="changeImage" class="sample-image" src="https://picsum.photos/id/1025/300/180" alt="A dog">
+        <br>
+        <button id="changeImageBtn">Change Image</button>
+        <p><a id="myLink" href="https://www.example.com" target="_blank">Open example link</a></p>
+        <button id="changeLinkBtn">Change Link</button>
+
+        <h2>Task 7: Form Interaction</h2>
+        <form id="myForm">
+            <label>Name:</label><br><input type="text" id="nameInput" placeholder="Enter your name"><br><br>
+            <label>Email:</label><br><input type="email" id="emailInput" placeholder="Enter your email">
+        </form>
+        <div class="note">
+            <p>Name: <span id="nameOutput">---</span></p>
+            <p>Email: <span id="emailOutput">---</span></p>
+        </div>
+    </main>
+    <footer>My jQuery Assignment</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

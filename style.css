@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+nav {
+    background: #263746;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 7px 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    min-height: 400px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 25px;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: 0;
+    padding: 10px 15px;
+    margin: 5px 4px 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #217dbb;
+}
+
+.note, #slidePanel {
+    background: #eaf2f8;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.sample-image {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+input {
+    padding: 9px;
+    width: 260px;
+    max-width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: #e67e22;
+    position: relative;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.animation-area {
+    height: 180px;
+    background: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.galleryImage {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#bigImageBox {
+    text-align: center;
+    display: none;
+}
+
+#bigImage {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 18px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 12px;
+        padding: 17px;
+    }
+    nav a {
+        margin: 5px;
+    }
+}
